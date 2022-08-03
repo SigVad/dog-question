@@ -1,0 +1,113 @@
+.page {
+  padding: 0 0 20px;
+  max-width: 880px;
+  width: calc(100% - 19px*2);
+  height: 100vh;
+  box-sizing: border-box;
+  font-family: 'Inter', Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.window {
+  margin: 0 auto;
+  margin-top: 100px;
+  width: 300px;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgba(248, 248, 248, 0.986);
+  border-radius: 8px;
+  border: 2px solid #0e007b;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  word-wrap: nowrap;
+}
+.titlebar {
+  min-height: 40px;
+  margin: 0;
+  padding: 0;
+  background: #0e007b;
+  /* border: 1px solid #0e007b; */
+  
+}
+.toolbar{
+  display: flex;
+  justify-content: space-evenly;
+  height: 150px;
+}
+.button {
+  color: rgb(0, 0, 0);
+  width: 120px;
+  background: none;
+  border: 2px solid #0e007b;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+}
+.button:hover {
+  opacity: 0.6;
+}
+.button__ready{
+  width: max-content;
+  margin: 15px auto;
+  border: 2px solid white;
+  background-color: rgba(255, 255, 255, 0.3);;
+}
+.title {
+  margin: 0 15px;
+  padding: 0;
+  color: white;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.5;
+  word-wrap: nowrap;
+  text-align: center;
+}
+.button__play {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  margin: auto 0;
+}
+.button__play_active {
+  color: rgb(0, 0, 0);
+  background: none;
+  border: 3x solid #1e00ff;
+}
+
+.reaction {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  word-wrap: nowrap;
+}
+.button__true {
+
+}
+.button__false{
+
+}
+.button__image{
+  margin: auto 5px;
+  width: 25px;
+}
+.button__image_play{
+  margin:auto;
+  width: 80px;
+}
+.button__text{
+  margin-left:10px;
+  font-size: 18px;
+  font-weight: bold;
+  color:#0e007b;
+}
+.sound{
+  display:none;
+}
