@@ -20,7 +20,7 @@ function getStart(evt) {
 function getPlay(sound) {
   sound.play();
   if (sound.id === 'soundPlay') {
-    sound.volume = 0.2;
+    sound.volume = 0.8;
   };
 };
 function getOff(sound) {
